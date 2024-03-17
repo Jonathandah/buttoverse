@@ -7,6 +7,6 @@
 	const { class: klass, ...props }: $$Props = $$props;
 </script>
 
-<button class={cn('px-4 py-2', klass)} {...props}>
+<button class={cn('px-4 py-2', klass)}>
 	<slot />
 </button>
